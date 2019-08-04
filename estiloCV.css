@@ -7,9 +7,6 @@ body{
     background-color: #93b5b3;
 }
 
-.titulo{
-    color: #407088;
-}
 
 h1{
     color: #103c42;
@@ -26,7 +23,7 @@ h2{
 }
 
 .datos li h4{
-    color: #010059;
+    color: #2a576e;
     border-block-end: dotted;
 }
 

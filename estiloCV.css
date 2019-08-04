@@ -3,17 +3,21 @@
 }
 
 body{
-    margin: 30px 60px;
+    margin: 30px 60px; 
     background-color: #93b5b3;
 }
 
 .titulo{
     color: #407088;
-
 }
 
 h1{
     color: #103c42;
+}
+
+hr{
+    height: 1px;
+    background-color: #103c42;
 }
 
 h2{
@@ -31,22 +35,63 @@ p{
     font-size: 16px;
 }
 
+.perfil{
+    width: 30%;       
+}
+
+.contenido{
+    width: 70%;
+}
+
+.perfil, .contenido{
+    float:left;
+}
+
 section{
-    width: 55vw;
     background-color: #cbdbcdad;
     border-radius: 10px;
     margin: 20px;
-    padding: 10px;
+    padding: 35px;
 }
 
 #quienSoy{
-    height: 70vh;
+    height: 40%;
 }
 
 #formacion{
-    height: 60vh;
+    height: 35%;
 }
 
 #experiencia{
-    height: 30vh;
+    height: 20%;
+}
+
+li{
+    list-style: none;
+}
+
+.portfolio img{
+    width: 150px;
+}
+
+.portfolio li{
+    display: inline-block;
+}
+
+.perfil img{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 20%;
+}
+
+.perfil h2{
+    color: #004a2f;
+    background-color: #a27a2fbe;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.perfil a{
+    text-decoration: none;
 }

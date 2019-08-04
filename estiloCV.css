@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 30px 60px;
+    background-color: #93b5b3;
+}
+
+.titulo{
+    color: #407088;
+
+}
+
+h1{
+    color: #103c42;
+}
+
+h2{
+    color: #407088;
+    font-size: 20px;
+}
+
+.datos li h4{
+    color: #010059;
+    border-block-end: dotted;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+section{
+    width: 55vw;
+    background-color: #cbdbcdad;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#quienSoy{
+    height: 70vh;
+}
+
+#formacion{
+    height: 60vh;
+}
+
+#experiencia{
+    height: 30vh;
+}
